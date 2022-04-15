@@ -6,7 +6,9 @@ Once this code is flashed onto the SKR board, the board listens for G-code comma
 G-code [commands](https://marlinfw.org/meta/gcode/) look as follows: **G1 X[#] Y[#] Z[#]**
 
 X range is (0, MAX_X)
+
 Y range is (0, MAX_Y)
+
 Z range is (0, MAX_Z)
 
 To home: **G28 [Axis]**
