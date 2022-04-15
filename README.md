@@ -7,10 +7,14 @@ G-code [commands](https://marlinfw.org/meta/gcode/) look as follows: **G1 X[#] Y
 
 X range is (0, 184)
 
+X color coding: BLUE, YELLOW, GREEN, RED 
+
 Y range is (0, 216)
+
+Y color coding: BLUE, RED, GREEN, BLACK
 
 Z range is (0, 70)
 
 To home: **G28 [Axis]**
 
-All ranges are in millimeters.
+All ranges are in millimeters. See wiring.png for color coding.
