@@ -3,7 +3,7 @@ Firmware for [SKR board](https://www.biqu.equipment/products/bigtreetech-skr-min
 
 Once this code is flashed onto the SKR board, the board listens for G-code commands coming from the Jetson Nano in order to drive each motor to a specific position.
 
-G-code [commands](https://marlinfw.org/meta/gcode/) look as follows: **G1 X[#] Y[#] Z[#]**
+[G-code commands](https://marlinfw.org/meta/gcode/) are follows: **G1 X[#] Y[#] Z[#]**
 
 X range is (0, 184)
 
@@ -17,4 +17,4 @@ Z range is (0, 70)
 
 To home: **G28 [Axis]**
 
-All ranges are in millimeters. See wiring.png for color coding.
+All ranges are in millimeters.
