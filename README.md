@@ -17,4 +17,6 @@ Z range is (0, 70)
 
 To home: **G28 [Axis]**
 
+Factory reset: **M502**
+
 All ranges are in millimeters.
