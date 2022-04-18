@@ -7,7 +7,7 @@ Once this code is flashed onto the SKR board, the board listens for G-code comma
 
 X range is (0, 184)
 
-X color coding: BLUE, YELLOW, GREEN, RED 
+X color coding: RED, GREEN, YELLOW, BLUE 
 
 Y range is (0, 216)
 
@@ -15,8 +15,10 @@ Y color coding: BLUE, RED, GREEN, BLACK
 
 Z range is (0, 70)
 
+Z color coding: BLUE, BLACK, YELLOW, ORANGE
+
 To home: **G28 [Axis]**
 
 Factory reset: **M502**
 
-All ranges are in millimeters.
+All ranges are in millimeters. Color coding is looking from the right-side up, so that you can read "BTT SKR MINI".
